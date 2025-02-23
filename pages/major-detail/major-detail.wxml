@@ -21,12 +21,16 @@
         <text class="label">平均薪资</text>
       </view>
       <view class="stat-item">
-        <text class="value">{{major.stats.satisfaction}}</text>
-        <text class="label">满意度</text>
+        <text class="value">{{major.stats.furtherRate}}</text>
+        <text class="label">深造率</text>
       </view>
       <view class="stat-item">
         <text class="value">{{major.stats.schoolCount}}</text>
         <text class="label">开设院校</text>
+      </view>
+      <view class="stat-item">
+        <text class="value">{{major.stats.transitionRate}}</text>
+        <text class="label">专业转行率</text>
       </view>
     </view>
 
