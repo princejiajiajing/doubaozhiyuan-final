@@ -56,6 +56,10 @@
   border-radius: 12rpx;
 }
 
+.label-bold {
+  font-weight: bold;
+}   /*kimi让我添加的一类，加粗的文字，我准备用来显示所有数据*/
+
 .stat-item {
   display: flex;
   flex-direction: column;
